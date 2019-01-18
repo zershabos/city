@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Changa|Tajawal');
+body{
+    background-color: #fff;
+    font-family: 'Changa', sans-serif;
+}
+.content .control{
+	width: 500px;
+	margin: 50px auto;
+}
+.content .control thead{
+	background: #333;
+}
+.content .control thead tr th{
+	color: #fff;
+	text-align: center;
+}
+.content .control td{
+	text-align: center;
+}
+.content .control td a{
+	margin-right: 5px;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.content .control td a:hover{
+	color: red;
+}
+.content .form{
+	margin-bottom: 50px;
+	box-shadow: 5px 10px 15px 0px #888888;
+	padding: 15px;
+	border:1px solid #ddd;
+}
+.content  .modal-body .form{
+	margin-bottom: 0;
+}
+.content .form h3{
+	margin: 0;
+	margin-bottom: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+.content .form .form-control{
+	margin-bottom: 20px;
+	height: 40px;
+	border-radius: 5px;
+}
+.content .form .btn-box{
+	text-align: center;
+	margin: 10px 0;
+}
+.content .form .btn-box button{
+	display: inline-block;
+	height: 40px;
+	border-radius: 5px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 40px;
+	background: #07ae07;
+	padding: 0 20px;
+}
+.content .back{
+	color: #fff;
+	font-size: 15px;
+	padding: 10px;
+	border-radius: 5px;
+	outline: 0;
+	text-decoration: none;
+	background: #179174;
+	display: inline-block;
+	margin-top: 16px;
+}
+.content .back i{
+	margin-right: 5px;
+}
